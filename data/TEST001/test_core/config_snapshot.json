@@ -1,0 +1,42 @@
+{
+  "mode": "sequence3",
+  "shaping_led": 1,
+  "wait_L1": 3,
+  "wait_L2": 3,
+  "wait_L3": 3,
+  "I1": 0.5,
+  "I2": 0.5,
+  "R_duration": 0.3,
+  "release_window": 1,
+  "ITI_fixed_correct": 1,
+  "ITI_rand_correct": 1,
+  "ITI_fixed_error": 2,
+  "ITI_rand_error": 1,
+  "max_trials": 3,
+  "subject_id": "TEST001",
+  "session_label": "test_core",
+  "adaptive_enabled": false,
+  "adaptive_window": 20,
+  "adaptive_threshold_high": 0.85,
+  "adaptive_threshold_low": 0.6,
+  "adaptive_step": 0.1,
+  "min_wait": 1,
+  "max_wait": 5,
+  "arduino_port": "",
+  "led_pins": [
+    22,
+    23,
+    24
+  ],
+  "button_pins": [
+    30,
+    31,
+    32
+  ],
+  "valve_pin": 26,
+  "debounce_time": 0.01,
+  "update_frequency": 100,
+  "ui_refresh_rate": 30,
+  "simulation_mode": true,
+  "session_start_time": "2025-09-01 16:25:39"
+}

@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(matlab:*)",
+      "Bash(del:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

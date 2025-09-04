@@ -1,0 +1,197 @@
+{
+  "subject_id": "M001",
+  "session_label": "20250903_113527",
+  "trial_index": 38,
+  "mode": "sequence3",
+  "config_snapshot": {
+    "mode": "sequence3",
+    "shaping_led": 1,
+    "wait_L1": 3,
+    "wait_L2": 3,
+    "wait_L3": 3,
+    "I1": 0.5,
+    "I2": 0.5,
+    "R_duration": 0.3,
+    "release_window": 1,
+    "ITI_fixed_correct": 1,
+    "ITI_rand_correct": 1,
+    "ITI_fixed_error": 2,
+    "ITI_rand_error": 1,
+    "max_trials": 500,
+    "subject_id": "M001",
+    "session_label": "20250903_113527",
+    "adaptive_enabled": false,
+    "adaptive_window": 20,
+    "adaptive_threshold_high": 0.85,
+    "adaptive_threshold_low": 0.6,
+    "adaptive_step": 0.1,
+    "min_wait": 1,
+    "max_wait": 5,
+    "arduino_port": "",
+    "led_pins": [
+      22,
+      23,
+      24
+    ],
+    "button_pins": [
+      30,
+      31,
+      32
+    ],
+    "valve_pin": 26,
+    "debounce_time": 0.01,
+    "update_frequency": 100,
+    "ui_refresh_rate": 30,
+    "simulation_mode": true
+  },
+  "trial_start_walltime_iso": "2025-09-03T11:39:02.430",
+  "trial_start_monotonic": 197.293288,
+  "trial_end_monotonic": 210.3481081,
+  "events": [
+    {
+      "type": "trial_start",
+      "timestamp": 197.293288
+    },
+    {
+      "type": "state_enter",
+      "timestamp": 197.2933544,
+      "state": "ITI"
+    },
+    {
+      "type": "button_release",
+      "timestamp": 197.3732422,
+      "button": 2
+    },
+    {
+      "type": "state_enter",
+      "timestamp": 199.5126275,
+      "state": "L1_WAIT"
+    },
+    {
+      "type": "led_on",
+      "timestamp": 199.5126275,
+      "led": 1
+    },
+    {
+      "type": "state_enter",
+      "timestamp": 201.1669668,
+      "state": "PAUSED"
+    },
+    {
+      "type": "state_enter",
+      "timestamp": 205.2097096,
+      "state": "ITI"
+    },
+    {
+      "type": "state_enter",
+      "timestamp": 207.4073668,
+      "state": "L1_WAIT"
+    },
+    {
+      "type": "led_on",
+      "timestamp": 207.4073668,
+      "led": 1
+    },
+    {
+      "type": "button_press",
+      "timestamp": 208.1761155,
+      "button": 1
+    },
+    {
+      "type": "button_release",
+      "timestamp": 208.2756764,
+      "button": 1
+    },
+    {
+      "type": "state_enter",
+      "timestamp": 208.2770643,
+      "state": "I1"
+    },
+    {
+      "type": "state_enter",
+      "timestamp": 208.8089123,
+      "state": "L2_WAIT"
+    },
+    {
+      "type": "led_on",
+      "timestamp": 208.8089123,
+      "led": 2
+    },
+    {
+      "type": "button_press",
+      "timestamp": 209.1420282,
+      "button": 2
+    },
+    {
+      "type": "button_release",
+      "timestamp": 209.2425402,
+      "button": 2
+    },
+    {
+      "type": "state_enter",
+      "timestamp": 209.243581,
+      "state": "I2"
+    },
+    {
+      "type": "state_enter",
+      "timestamp": 209.7763513,
+      "state": "L3_WAIT"
+    },
+    {
+      "type": "led_on",
+      "timestamp": 209.7763513,
+      "led": 3
+    },
+    {
+      "type": "button_press",
+      "timestamp": 209.9100655,
+      "button": 3
+    },
+    {
+      "type": "button_release",
+      "timestamp": 210.0103374,
+      "button": 3
+    },
+    {
+      "type": "state_enter",
+      "timestamp": 210.0112996,
+      "state": "REWARD"
+    },
+    {
+      "type": "reward_trigger",
+      "timestamp": 210.0112996,
+      "duration": 0.3
+    },
+    {
+      "type": "trial_end",
+      "timestamp": 210.3481081,
+      "result_code": 0,
+      "result_text": "Correct"
+    }
+  ],
+  "stage_timestamps": {
+    "trial_start": 197.293288,
+    "iti_duration": 2.1966581913676322,
+    "iti": 205.2097096,
+    "l1_wait": 207.4073668,
+    "paused": 201.1669668,
+    "i1": 208.2770643,
+    "l2_wait": 208.8089123,
+    "i2": 209.243581,
+    "l3_wait": 209.7763513,
+    "reward": 210.0112996
+  },
+  "press_release_times": {
+    "button1_press": 208.1761155,
+    "button1_release": 208.2756764,
+    "button2_press": 209.1420282,
+    "button2_release": 209.2425402,
+    "button3_press": 209.9100655,
+    "button3_release": 210.0103374
+  },
+  "result_code": 0,
+  "result_text": "Correct",
+  "reward_duration_actual": 0.3,
+  "iti_duration_actual": 2.1966581913676322,
+  "iti_error_count": 0
+}

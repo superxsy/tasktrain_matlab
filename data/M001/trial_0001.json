@@ -1,0 +1,181 @@
+{
+  "subject_id": "M001",
+  "session_label": "20250904_085019",
+  "trial_index": 1,
+  "mode": "sequence3",
+  "config_snapshot": {
+    "mode": "sequence3",
+    "shaping_led": 1,
+    "shaping_random_mode": false,
+    "sequence_random_mode": false,
+    "custom_sequence": [
+      1,
+      2,
+      3
+    ],
+    "wait_L1": 3,
+    "wait_L2": 3,
+    "wait_L3": 3,
+    "I1": 0.5,
+    "I2": 0.5,
+    "R_duration": 0.3,
+    "release_window": 1,
+    "ITI_fixed_correct": 1,
+    "ITI_rand_correct": 1,
+    "ITI_fixed_error": 2,
+    "ITI_rand_error": 1,
+    "max_trials": 500,
+    "subject_id": "M001",
+    "session_label": "20250904_085019",
+    "adaptive_enabled": false,
+    "adaptive_window": 20,
+    "adaptive_threshold_high": 0.85,
+    "adaptive_threshold_low": 0.6,
+    "adaptive_step": 0.1,
+    "min_wait": 1,
+    "max_wait": 5,
+    "arduino_port": "",
+    "led_pins": [
+      22,
+      23,
+      24
+    ],
+    "button_pins": [
+      30,
+      31,
+      32
+    ],
+    "valve_pin": 26,
+    "debounce_time": 0.01,
+    "update_frequency": 100,
+    "ui_refresh_rate": 30,
+    "simulation_mode": true
+  },
+  "trial_start_walltime_iso": "2025-09-04T08:50:27.014",
+  "trial_start_monotonic": 0.5132841,
+  "trial_end_monotonic": 3.2961696,
+  "events": [
+    {
+      "type": "trial_sequence",
+      "timestamp": 0.5103596,
+      "sequence": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "type": "trial_start",
+      "timestamp": 0.5132841
+    },
+    {
+      "type": "state_enter",
+      "timestamp": 0.5170207,
+      "state": "L1_WAIT"
+    },
+    {
+      "type": "led_on",
+      "timestamp": 0.5170207,
+      "led": 1
+    },
+    {
+      "type": "button_press",
+      "timestamp": 1.0829354,
+      "button": 1
+    },
+    {
+      "type": "button_release",
+      "timestamp": 1.1632505,
+      "button": 1
+    },
+    {
+      "type": "state_enter",
+      "timestamp": 1.1658419,
+      "state": "I1"
+    },
+    {
+      "type": "state_enter",
+      "timestamp": 1.6791105,
+      "state": "L2_WAIT"
+    },
+    {
+      "type": "led_on",
+      "timestamp": 1.6791105,
+      "led": 2
+    },
+    {
+      "type": "button_press",
+      "timestamp": 1.9742398,
+      "button": 2
+    },
+    {
+      "type": "button_release",
+      "timestamp": 2.0672886,
+      "button": 2
+    },
+    {
+      "type": "state_enter",
+      "timestamp": 2.0682879,
+      "state": "I2"
+    },
+    {
+      "type": "state_enter",
+      "timestamp": 2.6052161,
+      "state": "L3_WAIT"
+    },
+    {
+      "type": "led_on",
+      "timestamp": 2.6052161,
+      "led": 3
+    },
+    {
+      "type": "button_press",
+      "timestamp": 2.8882186,
+      "button": 3
+    },
+    {
+      "type": "button_release",
+      "timestamp": 2.9812068,
+      "button": 3
+    },
+    {
+      "type": "state_enter",
+      "timestamp": 2.982263,
+      "state": "REWARD"
+    },
+    {
+      "type": "reward_trigger",
+      "timestamp": 2.982263,
+      "duration": 0.3
+    },
+    {
+      "type": "trial_end",
+      "timestamp": 3.2961696,
+      "result_code": 0,
+      "result_text": "Correct"
+    }
+  ],
+  "stage_timestamps": {
+    "trial_start": 0.5132841,
+    "iti_duration": 0,
+    "l1_wait": 0.5170207,
+    "i1": 1.1658419,
+    "l2_wait": 1.6791105,
+    "i2": 2.0682879,
+    "l3_wait": 2.6052161,
+    "reward": 2.982263
+  },
+  "press_release_times": {
+    "button1_press": 1.0829354,
+    "button1_release": 1.1632505,
+    "button2_press": 1.9742398,
+    "button2_release": 2.0672886,
+    "button3_press": 2.8882186,
+    "button3_release": 2.9812068
+  },
+  "result_code": 0,
+  "result_text": "Correct",
+  "reward_duration_actual": 0.3,
+  "iti_duration_actual": 0,
+  "iti_error_count": 0
+}
